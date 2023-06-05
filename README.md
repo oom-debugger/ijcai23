@@ -38,9 +38,14 @@ for experiments, try scales = 1, 3, 5, 10 and for curvature = 0.25, 0.5, 1, 1.5
 If you find the paper or the repo useful, please cite it with
 
 @article{shojaee2023ppocoder,
+
   title={A Unification Framework for Euclidean and Hyperbolic Graph Neural Networks},
+  
   author={Mehrdad Khatir, Nurendra Choudhary, Sutanay Choudhury, Khushbu Agarwal, Chandan K. Reddy},
+  
   journal={arXiv preprint arXiv:2206.04285},
+  
   year={2023}
+  
 }
 
