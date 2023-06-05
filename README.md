@@ -4,7 +4,9 @@ Official implementation for: [A Unification Framework for Euclidean and Hyperbol
 Hyperbolic neural networks can effectively capture the inherent hierarchy of graph datasets, and consequently a powerful choice of GNNs. However, they entangle multiple incongruent (gyro-)vector spaces within a layer, which makes them limited in terms of generalization and scalability. 
 In this work, we propose the Poincaré disk model as our search space, and apply all approximations on the disk (as if the disk is a tangent space derived from the origin), thus getting rid of all inter-space transformations. Such an approach enables us to propose a hyperbolic normalization layer and to further simplify the entire hyperbolic model to a Euclidean model cascaded with our hyperbolic normalization layer. We applied our proposed nonlinear hyperbolic normalization to the current state-of-the-art homogeneous and multi-relational graph networks. We demonstrate that our model not only leverages the power of Euclidean networks such as interpretability and efficient execution of various model components, but also outperforms both Euclidean and hyperbolic counterparts on various benchmarks. 
 
-
+# Implementation:
+The paper proposes a hyperbolic layer that can attach to a given Euclidean model to incrementally make it (pseudo) hyperbolic. Thus, the repository is primarily consists of a hyperbolic layer and the codes from (1) [GraphZoo](https://github.com/AnoushkaVyas/GraphZoo)  (2) [Multi-relational Poincaré Graph Embeddings
+](https://github.com/ibalazevic/multirelational-poincare) and (3) [Relational Graph Convolutional Networks: A Closer Look](https://github.com/thiviyanT/torch-rgcn)
 
 # Experimental settings:
 hyperbolic-layers:
